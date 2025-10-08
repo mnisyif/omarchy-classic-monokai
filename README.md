@@ -3,6 +3,10 @@
 A unified **Monokai Classic** theme for Omarchy + Hyprland.  
 Warm tones, high contrast, and classic Monokai vibes across all components — Waybar, Mako, Ghostty, Alacritty, btop, Hyperlock, and SwayOSD.
 
+<p align="center">
+  <img src="preview.png" alt="Classic Monokai Theme Preview">
+</p>
+
 ---
 
 ## 🎨 Palette
