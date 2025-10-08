@@ -1,0 +1,99 @@
+/* @define-color background   #272822; */
+/* @define-color foreground   #f8f8f2; */
+/* Monokai Classic — Waybar theme vars */
+@define-color background   #272822;
+@define-color foreground   #f8f8f2;
+@define-color comment      #75715e;
+@define-color red          #f92672;
+@define-color orange       #fd971f;
+@define-color yellow       #e6db74;
+@define-color green        #a6e22e;
+@define-color blue         #66d9ef;
+@define-color purple       #ae81ff;
+
+@define-color border       #3f3d32; /* subtle divider */
+@define-color pill-bg      #3d3e37; /* selected/hover bg */
+
+/* ── Baseline (keeps your module style.css in control) ───────────────────── */
+* {
+  background: @background;
+  color: @foreground;
+  border: none;
+}
+
+/* ── Workspaces: small pills with accent on active ───────────────────────── */
+#workspaces {
+  margin: 0 6px;
+}
+#workspaces button {
+  all: unset;
+  padding: 0 10px;
+  margin: 3px 4px;
+  border-radius: 8px;
+  background: transparent;
+  color: @foreground;
+  opacity: 0.65;
+  transition: all 0.15s ease-in-out;
+}
+#workspaces button:hover {
+  opacity: 1;
+  background: @pill-bg;
+}
+#workspaces button.active,
+#workspaces button.visible {
+  background: @red;
+  color: @background;
+  opacity: 1;
+  font-weight: 700;
+}
+#workspaces button.urgent {
+  background: @orange;
+  color: @background;
+}
+
+/* ── Module color hints (optional, easy to remove) ───────────────────────── */
+#clock {
+  color: @green;
+}
+#pulseaudio.muted {
+  color: @comment;
+}
+#pulseaudio {
+  color: @yellow;
+}
+#network {
+  color: @blue;
+}
+#bluetooth {
+  color: @purple;
+}
+#battery {
+  color: @yellow;
+}
+#cpu {
+  color: @yellow;
+}
+
+/* ── Separators / borders if you use them ────────────────────────────────── */
+#custom-expand-icon,
+#tray,
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-omarchy,
+#custom-update,
+#custom-screenrecording-indicator {
+  border-left: 1px solid @border;
+  padding-left: 8px;
+}
+
+/* ── Tooltip ─────────────────────────────────────────────────────────────── */
+tooltip {
+  background: shade(@background, 0.9);
+  color: @foreground;
+  border-radius: 6px;
+  padding: 6px 8px;
+  border: 1px solid @border;
+}
