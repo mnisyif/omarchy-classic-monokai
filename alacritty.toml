@@ -2,15 +2,13 @@
 TERM = "xterm-256color"
 
 [window]
-padding.x = 5
-padding.y = 0
-decorations = "Buttonless"
-opacity = 0.85
+decorations = "buttonless"
+opacity = 0.8
 option_as_alt = "Both"
 
 [font]
 normal.family = "JetBrainsMono Nerd Font"
-size = 14
+size = 12
 
 [colors.primary]
 background = "#272822"
