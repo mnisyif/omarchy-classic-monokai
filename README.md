@@ -23,10 +23,10 @@ omarchy-theme-install https://github.com/mnisyif/omarchy-classic-monokai
 
 ## 🧩 Credits
 
-Monokai Classic Palette: khoido2003/classic_monokai.nvim
-Original Monokai: Wimer Hazenberg
-Icons: Papirus-Dark
-Base system: Omarchy
+ - Monokai Classic Palette: khoido2003/classic_monokai.nvim
+ - Original Monokai: Wimer Hazenberg
+ - Icons: Papirus-Dark
+ - Base system: Omarchy
 
 ---
 
