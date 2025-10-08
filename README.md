@@ -15,30 +15,10 @@ orange: #fd971f | red: #f92672 | blue: #66d9ef | purple: #ae81ff
 
 ---
 
-## 📁 Structure
+## ⚙️ Installation
 ```bash
-    classic-monokai/
-    ├── README.md
-    ├── theme.conf
-    ├── icon.theme
-    ├── waybar.css
-    ├── mako.ini
-    ├── swayosd.css
-    ├── btop.theme
-    ├── ghostty.conf
-    ├── alacritty.toml
-    ├── hyperland.conf
-    └── hyperlock.conf
+omarchy-theme-install https://github.com/mnisyif/omarchy-classic-monokai
 ```
-
----
-
-## ⚙️ Usage
-```bash
-omarchy-theme classic-monokai
-hyprctl reload
-```
-
 ---
 
 ## 🧩 Credits
