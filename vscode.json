@@ -1,4 +1,4 @@
 {
-  "name": "Monokai",
-  "extension": "vscode.theme-monokai"
+  "name": "Monokai Classic",
+  "extension": "monokai.theme-monokai-pro-vscode"
 }
