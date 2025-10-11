@@ -1,2 +1,34 @@
 @define-color background   #272822;
 @define-color foreground   #f8f8f2;
+
+@define-color off      #75715e;
+@define-color red          #f92672;
+@define-color orange       #fd971f;
+@define-color audio       #e6db74;
+@define-color cpu        #94C92A;
+@define-color net         #66d9ef;
+@define-color bt       #ae81ff;
+
+#pulseaudio.sink.muted {
+  color: @off;
+}
+
+#pulseaudio.source.muted { 
+  color: @off; 
+} 
+#pulseaudio { 
+  color: @audio; 
+} 
+#network { 
+  color: @net; 
+} 
+#bluetooth { 
+  color: @bt; 
+} 
+#cpu { 
+  color: @cpu; 
+} 
+#memory {
+  color: @cpu;
+}
+
