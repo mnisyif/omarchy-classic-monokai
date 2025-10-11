@@ -1,0 +1,35 @@
+/* Base */
+@define-color background      #272822;  
+@define-color foreground      #f8f8f2;
+
+/* Accents (pick one for “primary”; blue is calmer, pink is punchy) */
+@define-color primary         #66d9ef;  
+@define-color accent          #f92672;
+
+/* On-colors (text/ink that sits on top of colored surfaces) */
+@define-color on_primary      #272822;
+@define-color on_accent       #272822;
+
+/* Utility shades */
+@define-color surface         #2e2f29;  
+@define-color border          #3a3b34;  
+@define-color muted           #75715e;  
+
+/* Shadow + translucency helpers */
+@define-color shadow          rgba(0, 0, 0, 0.45);
+@define-color glass           rgba(39, 40, 34, 0.80);
+
+/* Optional semantic colors (mapped to Monokai) */
+@define-color ok              #a6e22e;  /* green */
+@define-color warn            #f4bf75;  /* yellow */
+@define-color info            #66d9ef;  /* blue */
+@define-color danger          #f92672;  /* red/pink */
+@define-color flair           #ae81ff;  /* magenta */
+@define-color aqua            #a1efe4;  /* cyan */
+
+/* Fallback aliases (some styles use these names) */
+@define-color primary_fg      @on_primary;
+@define-color primary_bg      @primary;
+@define-color background_fg   @foreground;
+@define-color background_bg   @background;
+
