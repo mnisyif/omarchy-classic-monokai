@@ -9,26 +9,28 @@
 @define-color net         #66d9ef;
 @define-color bt       #ae81ff;
 
-#pulseaudio.sink.muted {
+#pulseaudio.sink.muted,
+#wireplumber.sink-muted {
   color: @off;
 }
 
-#pulseaudio.source.muted { 
-  color: @off; 
-} 
-#pulseaudio { 
-  color: @audio; 
-} 
-#network { 
-  color: @net; 
-} 
-#bluetooth { 
-  color: @bt; 
-} 
-#cpu { 
-  color: @cpu; 
-} 
+#pulseaudio.source.muted,
+#wireplumber.source-muted {
+  color: @off;
+}
+#pulseaudio,
+#wireplumber {
+  color: @audio;
+}
+#network {
+  color: @net;
+}
+#bluetooth {
+  color: @bt;
+}
+#cpu {
+  color: @cpu;
+}
 #memory {
   color: @cpu;
 }
-
