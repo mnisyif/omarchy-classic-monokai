@@ -10,14 +10,11 @@
 @define-color bt       #ae81ff;
 
 #pulseaudio.sink.muted,
-#wireplumber.sink-muted {
+#pulseaudio.source.muted,
+#wireplumber.muted {
   color: @off;
 }
 
-#pulseaudio.source.muted,
-#wireplumber.source-muted {
-  color: @off;
-}
 #pulseaudio,
 #wireplumber {
   color: @audio;
