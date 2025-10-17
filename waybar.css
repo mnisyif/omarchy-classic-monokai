@@ -1,7 +1,6 @@
-@define-color background   #272822;
-@define-color foreground   #f8f8f2;
-
-@define-color off      #75715e;
+@define-color background   #75715e;
+@define-color foreground   #e6db74;
+@define-color mute      #75715e;
 @define-color red          #f92672;
 @define-color orange       #fd971f;
 @define-color audio       #e6db74;
@@ -12,22 +11,5 @@
 #pulseaudio.sink.muted,
 #pulseaudio.source.muted,
 #wireplumber.muted {
-  color: @off;
-}
-
-#pulseaudio,
-#wireplumber {
-  color: @audio;
-}
-#network {
-  color: @net;
-}
-#bluetooth {
-  color: @bt;
-}
-#cpu {
-  color: @cpu;
-}
-#memory {
-  color: @cpu;
+  color: @mute;
 }
